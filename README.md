@@ -20,7 +20,8 @@ Atlas decouples the request layer from the execution layer:
 
 ### 1. Prerequisite: Start the Broker
 Ensure Redis is running on your local machine:
-```bash
+('''bash)
+
 sudo service redis-server start
 
 2. Installation
