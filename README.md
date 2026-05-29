@@ -16,7 +16,7 @@ Atlas decouples the request layer from the execution layer:
 - **Monitoring:** Flower
 - **Environment:** Python 3.10+ (WSL/Ubuntu)
 
-## 🚦 Getting Started
+##  Getting Started
 
 ### 1. Prerequisite: Start the Broker
 Ensure Redis is running on your local machine:
