@@ -36,6 +36,5 @@ services:
     depends_on:
       - redis
       - worker
-
 volumes:
   redis_data:
