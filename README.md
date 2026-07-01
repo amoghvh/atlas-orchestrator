@@ -57,11 +57,8 @@ celery -A tasks flower --port=5555
 Monitoring
 
 Once running, you can monitor the "Atlas" heartbeat and worker performance at:
-http://localhost:5555
-🎯 Project Goals for 2026
+http://localhost:5555
 
 This project was developed as part of a high-value engineering portfolio to demonstrate proficiency in Distributed Systems, Asynchronous Programming, and Infrastructure Scalability during my B.Tech studies at CHRIST (Deemed to be University).
-
-
----
+
 
