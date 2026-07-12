@@ -3,7 +3,6 @@ import time
 
 @celery_app.task(name="atlas.long_task", bind=True)
 def long_task(self, seconds: int = 10):
-    """Example of a heavy/long-running task"""
     for i in range(seconds):
         time.sleep(1)
         self.update_state(
